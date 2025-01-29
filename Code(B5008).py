@@ -20,11 +20,11 @@ def calculate_age():
             years -= 1
             months += 12
 
-        messagebox.showinfo("Age Calculator", f"🎉 You are {years} years, {months} months, and {days} days old!")
+        messagebox.showinfo("Age Calculator", f"Hey, You are {years} years, {months} months, and {days} days old!")
     except ValueError:
         messagebox.showerror("Error", "Invalid date format! Use YYYY-MM-DD")
 
-# GUI setup
+
 root = tk.Tk()
 root.title("Age Calculator")
 
